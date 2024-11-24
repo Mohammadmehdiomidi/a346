@@ -1,0 +1,10 @@
+Ice_cream_R <- read_csv("Ice_cream_R.csv")
+icr<-Ice_cream_R
+print("Correlation between success at video game vs puzzle is:")
+print(cor(icr$video,icr$puzzle))
+plot(icr$video,icr$puzzle)
+abline(lm(icr$video,icr$puzzle))
+means<-aggregate(icr,by=list(icr$female),FUN=mean)
+means<-subset(means, select = -c(1,2,3,4) )
+print(means)
+barplot(t(means),beside=TRUE)
