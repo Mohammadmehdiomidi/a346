@@ -1,0 +1,15 @@
+head(new_df)
+var1 <- new_df$W_PCT
+var2 <- new_df$TS_PCT
+result <- cor.test(var1, var2, method = "pearson")
+print(result)
+Pearson's product-moment correlation
+
+data:  var1 and var2
+t = 0.079596, df = 98, p-value = 0.9367
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1886759  0.2041359
+sample estimates:
+        cor 
+0.008040146 
