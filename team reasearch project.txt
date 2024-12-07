@@ -544,3 +544,5 @@ Error: object 'y_scaled' not found
 Error in xy.coords(x, y) : 'x' and 'y' lengths differ
 > y_scaled <- y * max(hist_info$counts) / max(y)
 > lines(x,y_scaled, col = "blue" , lwd = 2)
+> head(nba_2016_2017_100.csv)
+
