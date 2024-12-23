@@ -14,7 +14,7 @@ plot(
 # Add a horizontal line at the mean of W_PCT
 abline(h = mean(selected_data$W_PCT, na.rm = TRUE), col = "blue", lwd = 1)
 
-R version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
+R version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"#
 Copyright (C) 2024 The R Foundation for Statistical Computing#
 Platform: x86_64-w64-mingw32/x64
 
