@@ -33,7 +33,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 > library(readr)
-> nba_2016_2017_100 <- read_csv("C:/Users/parsa/Downloads/Compressed/archive_2/nba_2016_2017_100.csv")
+> nba_2016_2017_100 <- read_csv("C:/Users/vp24abd/Downloads/Compressed/archive_2/nba_2016_2017_100.csv")
 Rows: 100 Columns: 63                                                                        
 ── Column specification ───────────────────────────────────────────────────────────────────────
 Delimiter: ","
@@ -47,9 +47,9 @@ num  (1): CFPARAMS
 > setwd("path/to/your/directory")
 Error in setwd("path/to/your/directory") : 
   cannot change working directory
-> setwd("C:\Users\parsa\Downloads\Compressed\archive_2")
+> setwd("C:\Users\vp24abd\Downloads\Compressed\archive_2")
 Error: '\U' used without hex digits in character string (<input>:1:11)
-> setwd("C:/Users/parsa/Downloads/Compressed")
+> setwd("C:/Users/vp24abd/Downloads/Compressed")
 > install.packages("tidyverse") # If not already installed
 WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
   
@@ -378,7 +378,7 @@ package ‘xml2’ successfully unpacked and MD5 sums checked
 package ‘tidyverse’ successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
-C:\Users\parsa\AppData\Local\Temp\RtmpghMoja\downloaded_packages
+C:\Users\vp24abd\AppData\Local\Temp\RtmpghMoja\downloaded_packages
 > library(tidyverse)
 ── Attaching core tidyverse packages ─────────────────────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ purrr     1.0.2
@@ -394,9 +394,9 @@ C:\Users\parsa\AppData\Local\Temp\RtmpghMoja\downloaded_packages
   > nba_data <- read_csv("C:/path/to/social_power_nba.csv")
 Error: 'C:/path/to/social_power_nba.csv' does not exist.
 > 
-  > nba_data <- read_csv("C:/Users/parsa/Downloads/Compressed/archive_2/social_power_nba.csv")
-Error: 'C:/Users/parsa/Downloads/Compressed/archive_2/social_power_nba.csv' does not exist.
-> nba_data <- read_csv("C:/Users/parsa/Downloads/Compressed/archive_2/nba_2016_2017_100.csv")
+  > nba_data <- read_csv("C:/Users/vp24abd/Downloads/Compressed/archive_2/social_power_nba.csv")
+Error: 'C:/Users/vp24abd/Downloads/Compressed/archive_2/social_power_nba.csv' does not exist.
+> nba_data <- read_csv("C:/Users/vp24abd/Downloads/Compressed/archive_2/nba_2016_2017_100.csv")
 Rows: 100 Columns: 63                                                                                   
 ── Column specification ──────────────────────────────────────────────────────────────────────────────────
 Delimiter: ","
@@ -409,12 +409,12 @@ num  (1): CFPARAMS
 > 
   > selected_data <- dataset %>%
   +     select(PLAYER_ID, W_PCT, TS_PCT)
-Error: object 'dataset' not found
+
 > # Extract specific columns and save to a new variable
   > selected_data <- dataset %>%
   +     select(PLAYER_ID, W_PCT, TS_PCT)
-Error: object 'dataset' not found
-> setwd("C:/Users/parsa/Downloads/Compressed/archive_2")
+
+> setwd("C:/Users/vp24abd/Downloads/Compressed/archive_2")
 > dataset<- read_csv("nba_2016_2017_100.csv")
 Rows: 100 Columns: 63                                                                                   
 ── Column specification ──────────────────────────────────────────────────────────────────────────────────
@@ -453,7 +453,7 @@ downloaded 1.5 MB
 package ‘dplyr’ successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
-C:\Users\parsa\AppData\Local\Temp\RtmpwVsWQT\downloaded_packages
+C:\Users\vp24abd\AppData\Local\Temp\RtmpwVsWQT\downloaded_packages
 > library(dplyr)
 
 Attaching package: ‘dplyr’
